@@ -17,4 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     })
 
+const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
+const opcoesDeAcessibilidade = this.documentElement.getElementById('opcoes-acessibilidade');
+
+botaoAcessibilidade.addEventListener('click')
+
 })
