@@ -181,3 +181,11 @@ h2 {
 .alto-contraste .nav-link{
     color: var(--alto-contraste-link);
 }
+
+.alto-contraste #tropicalia{
+    background: none;
+}
+
+.alto-contraste #galeria{
+    background-color: var(--alto-contraste-fundo);
+}
