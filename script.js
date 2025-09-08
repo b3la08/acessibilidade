@@ -31,7 +31,7 @@ alternaContraste.addEventListener('click', function(){
 })
 
 const botaoSelecionado = botaoAcessibilidade.getAttribute('aria-expanded') === 'true';
-botaoAcessibilidad.setAttribute('aria-expanded', !botaoSelecionado);
+    botaoAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
 
 
 })
