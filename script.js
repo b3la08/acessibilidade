@@ -30,4 +30,8 @@ alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste')
 })
 
+const botaoSelecionado = botaoAcessibilidade.getAttribute('aria-expanded') === 'true';
+botaoAcessibilidad.setAttribute('aria-expanded', !botaoSelecionado);
+
+
 })
